@@ -12,8 +12,8 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class LinearActuatorSubsystem extends SubsystemBase {
-  private final TalonFX leftMotor = new TalonFX(16);
-  private final TalonFX rightMotor = new TalonFX(17);
+  private final TalonFX leftMotor = new TalonFX(12);
+  private final TalonFX rightMotor = new TalonFX(13);
 
   /** Creates a new LinearActuatorSubsystem. */
   public LinearActuatorSubsystem() {}
